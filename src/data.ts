@@ -5,7 +5,6 @@ export type Movie = {
   duration: string;
   genres: string[];
   description: string;
-  story: string;
   image: string;
   poster: string;
 }
@@ -28,7 +27,6 @@ export const movies: Movie[] = [
     duration: "125 min",
     genres: ["Action", "Fantasy"],
     description: "Lara Croft must push herself beyond her limits on a dangerous island.",
-    story: "fhfghgjgjgjggjggjgg.",
     image: "https://assetsio.gnwcdn.com/-1505771779716.jpg?width=1200&height=630&fit=crop&enable=upscale&auto=webp",
     poster: "https://tse3.mm.bing.net/th/id/OIP.bqJZDXNVTiH4E__I9ErCcgHaEo?rs=1&pid=ImgDetMain&o=7&rm=3"
   }
